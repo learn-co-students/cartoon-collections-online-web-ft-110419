@@ -18,9 +18,9 @@ end
 def find_the_cheese(food) # code an argument here
   # the array below is here to help
   
-  cheeses = ["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"]
   food.detect do |edibles|
-    cheeses.include?(edibles)
+    cheese_types.include?(edibles)
   end 
   
 end
